@@ -1,0 +1,37 @@
+.app{
+    padding: 1em 2em;
+}
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app__header-title{
+    font-size: 40px;
+} 
+.app__header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    padding: .5em 1em;
+    background-color: #555A88;
+    color: white;
+    font-weight: 500;
+    border-radius: .5em;
+    margin-top: 1em;
+    border: none;
+}
+.app__header-btn:hover{
+    filter: brightness(1.06);
+    cursor: pointer;
+    box-shadow: 0 0 3px rgb(0, 0, 0, .5);
+}
+.app__users{
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}

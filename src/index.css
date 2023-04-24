@@ -1,0 +1,24 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(184, 184, 184, .4);
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+ul{
+    list-style: none;
+}
+input{
+    font-family: inherit;
+}
+h1, h2, h3, h4, p, ul, li, span, button, input, form, label{
+    margin: 0;
+    padding: 0;
+}
